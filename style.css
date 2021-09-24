@@ -1,0 +1,57 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style:none;
+ 
+}
+
+.logo {
+    
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+.logo > div {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo button {
+
+    justify-content: right;
+
+}
+
+a {
+
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    
+}
+
+.menu {
+    background-color: #5a5858;
+    width: 100%;
+    border-top: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+
+}
+
+main {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
