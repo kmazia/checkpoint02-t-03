@@ -28,11 +28,7 @@
 
 .logo img{
 
-    max-width:100px;
-    max-height:90px;
-    width: auto;
-    height: auto;
-    
+    width: 60px;
     
 }
 
@@ -71,7 +67,7 @@ a {
 }
 
 main {
-    height: 80vh;
+    height: 100vh;
     width: 100%;
     padding: 10px;
     background-image: url(./assets/background.jpg);
@@ -82,7 +78,7 @@ main {
     align-items: center;
     justify-content: center;
     font-family:'Birthstone', cursive; 
-    font-size: 32px;
+    font-size: 25px;
     
 
 }
@@ -111,7 +107,7 @@ form {
 }
 
 fieldset{
-    height: 500px;
+    height: 450px;
     padding: 15px;
     border-radius: 15px;
     border: 1px solid purple;
@@ -129,18 +125,51 @@ fieldset div{
 }
 
 input {
-
-    border-radius: 15px;
+    background-color: #e4e4e4;
+    border-radius: 5px;
     padding: 5px;
     
 }
 
-select {
-    border-radius: 15px;
-    padding: 10px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;      
+input:hover {
 
+    padding: 10px;
+
+}
+
+input:focus {
+
+    background-color: #ffffff;
+    border: #000000;
+
+}
+input[type="radio"]:checked {
+    transform: scale(1.5);
+
+}
+
+.checkbox{
+
+    transition-duration: .5s;
+}
+.checkbox:checked {
+    border-color: red;
+    transform: scale(2);
+        
+}
+
+
+#home {
+    border-radius: 15px;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    color: purple;
+    font-size: 15px;
+}
+
+#home:hover {
+    padding: 10px;
+    font-weight: bolder;
 }
 
 .button-container{
@@ -164,8 +193,20 @@ select {
     color: #ffffff;
     font-family: 'Birthstone', cursive;;
     font-size: 30px;
+    transition-duration: .5s;
 
 }
+
+.button-container  button[type="reset"]:hover{
+
+    background-color: #ff0000c6;
+}
+
+.button-container  button[type="submit"]:hover{
+
+    background-color: #0080 ;
+}
+
 
 
 
